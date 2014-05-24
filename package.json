@@ -1,0 +1,38 @@
+{
+      "name"                        : "ee-soa-service-testing"
+    , "description"                 : "easy testing for ee-soa services"
+    , "version"                     : "0.1.0"
+    , "homepage"                    : "https://github.com/eventEmitter/ee-soa-service-testing"
+    , "author"                      : "Michael van der Weg <michael@eventemitter.com> (http://eventemitter.com/)" 
+    , "licence"                     : "mit"
+    , "repository": {
+          "url"                     : "https://github.com/eventEmitter/ee-soa-service-testing.git"
+        , "type"                    : "git"
+    }
+    , "engines": {
+        "node"                      : ">=v0.10.17"
+    }
+    , "bugs": {
+        "url"                       : "https://github.com/eventEmitter/ee-soa-service-testing/issues"
+    }
+    , "dependencies": {
+          "ee-class"                : "1.0.x"
+        , "ee-event-emitter"        : "0.1.x"
+        , "ee-types"                : "0.1.x"
+        , "ee-log"                  : "0.2.x"
+        , "ee-async"                : "0.2.x"
+        , "ee-orm"                  : "0.3.x"
+        , "ee-postgres-connection"  : "0.2.x"
+        , "ee-mysql-connection"     : "0.1.x"
+        , "ee-soa-rpc-request"      : "0.1.x"
+        , "ee-soa-service-manager"  : "0.1.x"
+    }
+    , "devDependencies": {
+          "mocha"                   : "1.17.x"
+    }
+    , "optionalDependencies": {}
+    , "keywords"                    : ["ee", "soa", "service", "test"]
+    , "scripts": {
+        "test"                      : "./node_modules/mocha/bin/mocha --reporter spec"
+    }
+}
