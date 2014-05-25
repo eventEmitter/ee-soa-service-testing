@@ -19,7 +19,7 @@
 		config = require('../config.js').db
 	} catch(e) {
 		config = {
-			ee_orm_test: {
+			ee_soa_test: {
 				  type: 'postgres'
 				, hosts: [
 					{
