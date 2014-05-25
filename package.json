@@ -1,7 +1,7 @@
 {
       "name"                        : "ee-soa-service-testing"
     , "description"                 : "easy testing for ee-soa services"
-    , "version"                     : "0.1.1"
+    , "version"                     : "0.1.2"
     , "homepage"                    : "https://github.com/eventEmitter/ee-soa-service-testing"
     , "author"                      : "Michael van der Weg <michael@eventemitter.com> (http://eventemitter.com/)" 
     , "licence"                     : "mit"
@@ -29,6 +29,7 @@
     }
     , "devDependencies": {
           "mocha"                   : "1.17.x"
+        , "ee-soa-testservice"      : "0.1.x"
     }
     , "optionalDependencies": {}
     , "keywords"                    : ["ee", "soa", "service", "test"]
