@@ -16,19 +16,19 @@
         "url"                       : "https://github.com/eventEmitter/ee-soa-service-testing/issues"
     }
     , "dependencies": {
-          "ee-class"                : "1.0.x"
-        , "ee-event-emitter"        : "0.1.x"
-        , "ee-types"                : "0.1.x"
-        , "ee-log"                  : "0.2.x"
-        , "ee-async"                : "0.2.x"
-        , "ee-orm"                  : "0.3.x"
-        , "ee-postgres-connection"  : "0.2.x"
-        , "ee-mysql-connection"     : "0.1.x"
-        , "ee-soa-rpc-request"      : "0.1.x"
-        , "ee-soa-service-manager"  : "0.1.x"
+          "ee-class"                : "~1.4.0"
+        , "ee-event-emitter"        : "~1.0.1"
+        , "ee-types"                : "~2.1.2"
+        , "ee-log"                  : "~2.0.2"
+        , "ee-async"                : "~0.3.1"
+        , "ee-orm"                  : "~0.16.1"
+        , "ee-postgres-connection"  : "~0.10.0"
+        , "ee-mysql-connection"     : "~0.6.0"
+        , "ee-soa-rpc-request"      : "~0.2.25"
+        , "ee-soa-service-manager"  : "~1.0.0"
     }
     , "devDependencies": {
-          "mocha"                   : "1.17.x"
+          "mocha"                   : "~3.3.0"
         , "ee-soa-testservice"      : "0.1.x"
     }
     , "optionalDependencies": {}
